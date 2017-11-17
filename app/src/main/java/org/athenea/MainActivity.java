@@ -13,8 +13,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import org.athenea.login.LoginActivity;
+import org.athenea.login.LoginActivityMaterial;
 import org.athenea.map.MapsActivity;
 import org.athenea.register.RegisterActivity;
+import org.athenea.register.SignupActivityMaterial;
 import org.athenea.settings.SettingsActivity;
 
 public class MainActivity extends AppCompatActivity
@@ -84,12 +86,12 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_account) {
             // Handle the camera action
 
-            Intent intent = new Intent(this, LoginActivity.class);
+            Intent intent = new Intent(this, LoginActivityMaterial.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_courses) {
 
-            Intent intent = new Intent(this, RegisterActivity.class);
+            Intent intent = new Intent(this, SignupActivityMaterial.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_course_collections) {
