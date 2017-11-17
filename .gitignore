@@ -1,0 +1,39 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# allow war
+!target/users-1.0-SNAPSHOT.war
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Target folder
+target/
+
+# Idea config
+.idea/
+.project
+.classpath
+*.iml
+.settings/
+
+.DS_Store
+src/test/
+
