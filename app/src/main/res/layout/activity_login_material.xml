@@ -20,8 +20,8 @@
             android:fontFamily="@font/pacifico_athenea"
             android:text="Athenea project"
             android:textAlignment="center"
-            android:textSize="40sp"
-            android:typeface="monospace" />
+            android:textColor="@color/colorPrimary"
+            android:textSize="40sp" />
 
         <!--  Email Label -->
         <android.support.design.widget.TextInputLayout

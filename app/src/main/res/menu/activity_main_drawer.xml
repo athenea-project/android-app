@@ -1,42 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_account"
-            android:icon="@drawable/ic_account_box_black_24dp"
-            android:title="Account" />
-        <item
-            android:id="@+id/nav_courses"
-            android:icon="@drawable/ic_school_black_24dp"
-            android:title="Courses" />
-        <item
-            android:id="@+id/nav_course_collections"
-            android:icon="@drawable/ic_dashboard_black_24dp"
-            android:title="Course collections" />
-        <item
-            android:id="@+id/nav_map"
-            android:icon="@drawable/ic_map_black_24dp"
-            android:title="Map" />
-    </group>
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/nav_courses"
+      android:icon="@drawable/ic_school_black_24dp"
+      android:title="Courses"/>
 
-    <item android:title="Others">
-        <menu>
-            <item
-                android:id="@+id/nav_settings"
-                android:icon="@drawable/ic_settings_black_24dp"
-                android:title="Settings" />
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_help"
-                android:icon="@drawable/ic_help_outline_black_24dp"
-                android:title="Help" />
-        </menu>
-    </item>
+    <item
+      android:id="@+id/nav_account"
+      android:icon="@drawable/ic_account_box_black_24dp"
+      android:title="Account"/>
+    <!--
+    <item
+      android:id="@+id/nav_course_collections"
+      android:icon="@drawable/ic_dashboard_black_24dp"
+      android:title="Course collections"/> -->
+    <item
+      android:id="@+id/nav_map"
+      android:icon="@drawable/ic_map_black_24dp"
+      android:title="Map"/>
+  </group>
+
+  <!--
+
+  <item android:title="Others">
+      <menu>
+          <item
+              android:id="@+id/nav_settings"
+              android:icon="@drawable/ic_settings_black_24dp"
+              android:title="Settings" />
+          <item
+              android:id="@+id/nav_share"
+              android:icon="@drawable/ic_menu_share"
+              android:title="Share" />
+          <item
+              android:id="@+id/nav_help"
+              android:icon="@drawable/ic_help_outline_black_24dp"
+              android:title="Help" />
+      </menu>
+  </item>
+
+-->
 
 </menu>
